@@ -1,6 +1,6 @@
 {
 	"name": "nuxt-estimate-read-time",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Simple medium like read times for nuxt-js",
 	"main": "index.js",
 	"repository": {
