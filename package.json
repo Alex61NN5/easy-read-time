@@ -1,11 +1,23 @@
 {
-  "name": "nuxt-estimate-read-time",
-  "version": "1.0.0",
-  "description": "Simple medium like read times for nuxt-js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alex Ginns",
-  "license": "MIT"
+	"name": "nuxt-estimate-read-time",
+	"version": "1.0.2",
+	"description": "Simple medium like read times for nuxt-js",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alex61NN5/nuxt-estimate-read-time"
+	},
+	"bugs": {
+		"url": "https://github.com/Alex61NN5/nuxt-estimate-read-time/issues"
+	},
+	"keywords": [
+		"nuxtjs",
+		"nuxt",
+		"nuxt-module",
+		"medium",
+		"blog",
+		"articles"
+	],
+	"author": "Alex Ginns",
+	"license": "MIT"
 }

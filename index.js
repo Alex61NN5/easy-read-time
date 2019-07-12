@@ -1,7 +1,7 @@
 const removeMd = md => {
-	let output = md || '';
+	let output = md;
 
-	output = output.replace(/^(-\s*?|\*\s*?|_\s*?){3,}\s*$/gm, '');
+	output = typeof output === 'string' ? output.replace(/^(-\s*?|\*\s*?|_\s*?){3,}\s*$/gm, '') : '';
 
 	try {
 		output = output
