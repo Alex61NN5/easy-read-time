@@ -1,6 +1,6 @@
 {
 	"name": "easy-read-time",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Simple estimated medium like read times",
 	"main": "index.js",
 	"repository": {

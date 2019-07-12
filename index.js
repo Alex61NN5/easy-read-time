@@ -18,7 +18,7 @@ const removeMd = md => {
 			.replace(/\[(.*?)\][\[\(].*?[\]\)]/g, '$1')
 			// Remove blockquotes
 			.replace(/^\s{0,3}>\s?/g, '')
-			// Remove reference-style links?
+			// Remove reference-style links
 			.replace(/^\s{1,2}\[(.*?)\]: (\S+)( ".*?")?\s*$/g, '')
 			// Remove atx-style headers
 			.replace(/^(\n)?\s{0,}#{1,6}\s+| {0,}(\n)?\s{0,}#{0,} {0,}(\n)?\s{0,}$/gm, '$1$2$3')
@@ -29,7 +29,7 @@ const removeMd = md => {
 			.replace(/(`{3,})(.*?)\1/gm, '$2')
 			// Remove inline code
 			.replace(/`(.+?)`/g, '$1')
-			// Replace two or more newlines with exactly two? Not entirely sure this belongs here...
+			// Replace two or more newlines with exactly two
 			.replace(/\n{2,}/g, '\n\n');
 	} catch (e) {
 		console.error(e);
@@ -38,13 +38,13 @@ const removeMd = md => {
 	return output;
 };
 
-export default function getReadTime(string, wordTime = 200) {
+export default function getReadTime(string, wordTime = 200, customString = 'min read') {
 	let output = removeMd(string);
 	let duration = output.split(' ').length / wordTime;
 	return {
 		duration: duration,
 		roundDuration: Math.round(duration),
 		totalWords: output.split(' ').length,
-		formattedString: Math.round(duration) + ' min read'
+		formattedString: Math.round(duration) + ' ' + customString
 	};
 }

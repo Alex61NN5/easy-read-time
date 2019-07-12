@@ -33,12 +33,13 @@ getReadTime(text, 200);
 ```
 
 ### Input
-The function takes two arguments the string you wish to get the read time for and speed of reading the text in words per minute, the default is set to 200 (the average reading time for adults is 250 - 300 words per minute) allowing extra time for viewing of images and other content. 
+The function takes three arguments the string you wish to get the read time for, the speed of reading the text in words per minute, the default is set to 200 (the average reading time for adults is 250 - 300 words per minute) allowing extra time for viewing of images and other content, and a custom string this field is optional and the default is 'min read', if you pass in 'minute read' formattedString will return '2 minute read'.
 
 | Argument  | Type | Description  |
 | :------------ |:---------------|:---------------|
-| string | string | Input String |
-| wordTime | number | Speed of reading the text in Words per Minute |
+| string: required | string | Input String |
+| wordTime: optional | number | Defaults to 200 - Speed of reading the text in Words per Minute |
+| customString: optional | number | Default to 'min read' - The text after the duration eg: 2 + 'minute read' |
 
 ### Output
 The method returns an object
