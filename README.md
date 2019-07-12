@@ -1,49 +1,32 @@
-# Nuxt Estimate Read Time
-> Simple medium like read time estimates
+# Easy Estimated Read Time
+> Simple estimated medium like read times.
 
 ## Features
-- Less than 4kb!
+- Less than 4kb 0 dependencies!
 - Calculates read time of input string (rounds to closest minute)
 - Pass in plain text / HTML / markdown
 - Strips all markdown and HTML for better read time estimates
-- Supports any version of Nuxt / Vue
+- Easy to use
 
 ## Install
 ```
-$ npm i nuxt-estimate-read-time
+$ npm i easy-read-time
 ```
 
 or
 
 ```
-$ yarn add nuxt-estimate-read-time
+$ yarn add easy-read-time
 ```
 
 ## Usage
 
-Add `nuxt-estimate-read-time` to `modules` section of `nuxt.config.js`
-
 ```
-{
-   modules: [
-     'nuxt-estimate-read-time'
-   ]
-}
-```
-
-In your component
-
-```
-import getReadTime from "nuxt-estimate-read-time";
+import getReadTime from "easy-read-time";
 
 getReadTime(text, 200);
 ```
 
-In component html
-
-```
-<p>{{getReadTime(text, 200).formattedString}}</p>
-```
 #### Input
 The function takes two arguments the string you wish to get the read time for and speed of reading the text in words per minute, the default is set to 200 (the average reading time for adults is 250 - 300 words per minute) allowing extra time for viewing of images and other content. 
 
@@ -62,6 +45,8 @@ The method returns an object
 | totalWords | number | Number of words in the input string |
 | formattedString | string | Medium like read time string '2 min read' |
 
+Sample Response:
+
 ```
 {
     duration: 2.3,
@@ -70,6 +55,3 @@ The method returns an object
     formattedString: 2 min read'
 }
 ```
-
-## Contribution
-- Contributions welcome - would like to create some jasmine tests
