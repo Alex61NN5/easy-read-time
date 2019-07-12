@@ -1,19 +1,17 @@
 {
-	"name": "nuxt-estimate-read-time",
+	"name": "easy-read-time",
 	"version": "1.0.3",
-	"description": "Simple medium like read times for nuxt-js",
+	"description": "Simple estimated medium like read times",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Alex61NN5/nuxt-estimate-read-time"
+		"url": "git+https://github.com/Alex61NN5/easy-read-time"
 	},
 	"bugs": {
-		"url": "https://github.com/Alex61NN5/nuxt-estimate-read-time/issues"
+		"url": "https://github.com/Alex61NN5/easy-read-time/issues"
 	},
 	"keywords": [
-		"nuxtjs",
-		"nuxt",
-		"nuxt-module",
+		"javascript",
 		"medium",
 		"blog",
 		"articles"
