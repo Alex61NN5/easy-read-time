@@ -1,6 +1,6 @@
 {
 	"name": "easy-read-time",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Simple estimated medium like read times",
 	"main": "index.js",
 	"repository": {
@@ -14,7 +14,11 @@
 		"javascript",
 		"medium",
 		"blog",
-		"articles"
+		"articles",
+		"read",
+		"time",
+		"read time",
+		"medium read time"
 	],
 	"author": "Alex Ginns",
 	"license": "MIT"
