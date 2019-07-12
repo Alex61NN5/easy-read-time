@@ -1,0 +1,1 @@
+"# nuxt-estimate-read-time" 
