@@ -6,7 +6,7 @@
 > Simple estimated medium like read times.
 
 ## Features 🔥
-- Less than 4kb!
+- Less than 4kb! (1.08kb Minified)
 - Zero dependencies!
 - Calculates read time of input string (rounds to closest minute).
 - Pass in plain text / HTML / markdown.
