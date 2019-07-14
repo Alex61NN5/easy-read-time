@@ -1,4 +1,4 @@
-const removeMd = md => {
+function removeMd(md) {
 	let output = md;
 
 	output = typeof output === 'string' ? output.replace(/^(-\s*?|\*\s*?|_\s*?){3,}\s*$/gm, '') : '';
@@ -36,9 +36,9 @@ const removeMd = md => {
 		return md;
 	}
 	return output;
-};
+}
 
-export default function getReadTime(string, wordTime = 200, customString = 'min read') {
+function getReadTime(string, wordTime = 200, customString = 'min read') {
 	let output = removeMd(string);
 	let duration = output.split(' ').length / wordTime;
 	return {
@@ -48,3 +48,5 @@ export default function getReadTime(string, wordTime = 200, customString = 'min 
 		formattedString: Math.round(duration) + ' ' + customString
 	};
 }
+
+export default getReadTime;
