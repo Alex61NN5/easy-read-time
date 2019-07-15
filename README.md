@@ -3,7 +3,7 @@
 ![bundlephobia](https://img.shields.io/bundlephobia/min/easy-read-time.svg)
 ![npm downloads](https://img.shields.io/npm/dy/easy-read-time.svg)
 ![twitter](https://img.shields.io/twitter/follow/alexginns.svg?style=social)
-> Simple estimated medium like read times.
+> Simple medium like estimated read times.
 
 ## Features 🔥
 - Less than 4kb! (1.08kb Minified)
