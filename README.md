@@ -61,3 +61,8 @@ The method returns an object
     formattedString: '2 min read'
 }
 ```
+
+## Support 💬
+- 🐞 For Bug Reports and Enhancements please use the [issues section](https://github.com/Alex61NN5/easy-read-time/issues)
+
+- 🕊️ To contact me directly you can find me via my [twitter](https://twitter.com/alexginns) 
