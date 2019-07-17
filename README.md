@@ -1,7 +1,6 @@
 # ⌛ Easy Estimated Read Time
 ![npm version](https://img.shields.io/npm/v/easy-read-time.svg)
 ![bundlephobia](https://img.shields.io/bundlephobia/min/easy-read-time.svg)
-![npm downloads](https://badgen.net/npm/dt/easy-read-time)
 ![twitter](https://img.shields.io/twitter/follow/alexginns.svg?style=social)
 > Simple medium like estimated read times.
 
