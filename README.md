@@ -4,6 +4,9 @@
 ![twitter](https://img.shields.io/twitter/follow/alexginns.svg?style=social)
 > Simple medium like estimated read times.
 
+## Demo 🏄 
+https://easyreadtime.netlify.com/
+
 ## Features 🔥
 - Less than 4kb! (1.08kb Minified)
 - Zero dependencies!
